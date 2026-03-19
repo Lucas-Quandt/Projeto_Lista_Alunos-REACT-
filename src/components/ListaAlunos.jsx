@@ -7,7 +7,7 @@ function ListaAlunos() {
    { id: 2, nome: "Heloisa", nota: 4 }, 
    { id: 3, nome: "Matson", nota: 7 }, 
    { id: 4, nome: "Vinicius", nota: 6 }, 
-   { id: 5, nome: "Leticia", nota: 10 }, 
+   { id: 5, nome: "Leticia", nota: 5 }, 
    { id: 6, nome: "Gustavo", nota: 10 }
     ]; 
 
@@ -23,7 +23,7 @@ function ListaAlunos() {
        <Aluno 
          key={aluno.id} // chave obrigatória 
          nome={aluno.nome} 
-         preco={aluno.nota} 
+         nota={aluno.nota} 
        /> 
  
      ))} 

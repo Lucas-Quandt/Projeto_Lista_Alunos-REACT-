@@ -3,11 +3,13 @@ function Aluno (props) {
     return (
         <div className="Dados">
 
-            <h1>Nome:{props.nome}</h1> 
+            <h2>Nome:{props.nome}</h2> 
 
             <p>Nota:{props.nota}</p>
 
             <p>Situação:{props.nota >= 6 ? "✅ Aprovado" : "❌ Reprovado"}</p>  
+
+            <hr />
 
         </div>
     );

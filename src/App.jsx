@@ -17,8 +17,9 @@ function App() {
        <div> 
  
          <h2>Bem-vindo!</h2> 
+         <p>Clique no botão para ver as notas</p>
 
- 
+         
        </div> 
      )} 
  
@@ -31,6 +32,10 @@ function App() {
  
        </div> 
      )} 
+
+         <button onClick={() => setMostrarAlunos(!mostrarAlunos)}>
+            {mostrarAlunos ? "Voltar" : "Ver Lista de Alunos"}
+         </button>
  
    </div> 
  ) 
